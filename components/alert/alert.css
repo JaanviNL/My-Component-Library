@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*
+{
+    --error-color:#ef4444;
+    --success-color:#15803d;
+    --warning-color:#f59e0b;
+    --info-color:#06b6d4;
+    --lightgrey:#e5e5e5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.alert-container
+{
+    width: 600px;
+    background-color:var(--lightgrey);
+    border: 1px solid #a3a3a3;
+    padding:1rem 1.5rem;
+    margin: 1.5rem;
+}
+.alert
+{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+   padding-left: 1rem;
+    font-weight: bold;
+    color: white;
+    margin: 1rem;
+    border-radius: 0.4rem;
+}
+.icon
+{
+padding: 1rem 1rem;
+cursor: pointer;
+
+}
+.error-alert
+{
+    background-color: var(--error-color);
+}
+.success-alert
+{
+    background-color: var(--success-color);
+}
+.info-alert
+{
+    background-color: var(--info-color);
+}
+.warning-alert
+{
+    background-color: var(--warning-color);
+}
+
+.outline-alert
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+   padding-left: 1rem;
+    font-weight: bolder;
+    margin: 1rem;
+    border: 2px solid;
+    border-radius: 0.4rem;
+}
+
+.outline-icon
+{
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+    font-size: larger;
+}
+.outline-error
+{
+    border-color:  var(--error-color);
+    color:var(--error-color);
+}
+.outline-success
+{
+    border-color:  var(--success-color);
+    color:var(--success-color);
+}
+.outline-info
+{
+color: white;
+border: none;
+background-color: var(--info-color);
+}
+.outline-warning
+{
+    border-color: var(--warning-color);;
+    color: var(--warning-color);
+}
