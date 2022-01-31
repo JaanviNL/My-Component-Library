@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *
 {
-    --error-color:#ef4444;
-    --success-color:#15803d;
-    --warning-color:#f59e0b;
-    --info-color:#06b6d4;
+    --error-alert:#ef4444;
+    --success-alert:#15803d;
+    --warning-alert:#f59e0b;
+    --info-alert:#06b6d4;
     --lightgrey:#e5e5e5;
     font-family: 'Montserrat', sans-serif;
 }
@@ -37,19 +37,19 @@ cursor: pointer;
 }
 .error-alert
 {
-    background-color: var(--error-color);
+    background-color: var(--error-alert);
 }
 .success-alert
 {
-    background-color: var(--success-color);
+    background-color: var(--success-alert);
 }
 .info-alert
 {
-    background-color: var(--info-color);
+    background-color: var(--info-alert);
 }
 .warning-alert
 {
-    background-color: var(--warning-color);
+    background-color: var(--warning-alert);
 }
 
 .outline-alert
@@ -72,22 +72,22 @@ cursor: pointer;
 }
 .outline-error
 {
-    border-color:  var(--error-color);
-    color:var(--error-color);
+    border-color:  var(--error-alert);
+    color:var(--error-alert);
 }
 .outline-success
 {
-    border-color:  var(--success-color);
-    color:var(--success-color);
+    border-color:  var(--success-alert);
+    color:var(--success-alert);
 }
 .outline-info
 {
-color: white;
+color: #FFFFFF;
 border: none;
-background-color: var(--info-color);
+background-color: var(--info-alert);
 }
 .outline-warning
 {
-    border-color: var(--warning-color);;
-    color: var(--warning-color);
+    border-color: var(--warning-alert);
+    color: var(--warning-alert);
 }
