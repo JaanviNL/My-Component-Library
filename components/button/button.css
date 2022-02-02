@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*
+{--primary:#0284c7;
+    --primary-hover:#0369a1;
+    --secondary:#a3a3a3;
+    --error:#ef4444;
+    --error-hover:#dc2626;
+    --sucess:#16a34a;
+    --sucess-hover:#15803d;
+    --lightgrey:#e5e5e5;
+    --border-color:#a3a3a3;
+    --font:#ebeef1;
+    font-family: 'Montserrat', sans-serif;
+}
+.button-container
+{
+    width: 36rem;
+    min-height: 3rem;
+    background-color:var(--lightgrey);
+    border: 1px solid var(--border-color);
+    padding:1rem 1.5rem;
+    margin: 1.5rem;
+}
+.btn
+{
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-weight: bolder;
+    color:var(--font);
+    border: none;
+    cursor: pointer;
+}
+.btn-primary
+{
+    background-color: var(--primary);
+}
+.btn-primary:hover
+{
+    background-color: var(--primary-hover);
+}
+.btn-secondary
+{
+    color: #00080c;
+    background-color: var(--lightgreyy);
+}
+.btn-secondary:hover
+{
+    background-color: var(--secondary);
+}
+.btn-error
+{
+    background-color: var(--error);
+}
+.btn-error:hover
+{
+    background-color: var(--error-hover);
+}
+.btn-success
+{
+    background-color: var(--sucess);
+}
+.btn-success:hover{
+    background-color: var(--sucess-hover);
+}
+/* outline buttons */
+.btn-primary-outline
+{
+    color: var(--primary);
+    border:0.1rem solid var(--primary);
+}
+.btn-primary-outline:hover{
+    background-color: var(--primary);
+color: var(--font);
+}
+.btn-error-outline
+{
+    border:0.1rem solid var(--error);
+    color:var(--error);
+}
+.btn-error-outline:hover
+{
+    background-color: var(--error-hover);
+    color: var(--font);
+}
+.btn-success-outline
+{
+    border:0.1rem solid var(--sucess);
+    color: var(--sucess);
+}
+.btn-success-outline:hover
+{
+    background-color: var(--sucess-hover);
+    color: var(--font);
+}
+.btn-link-primary
+{
+    color: var(--font);
+    border: 0.1rem solid var(--primary);
+    background-color: var(--primary);
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.btn-link-secondary
+{
+    color: var(--font);
+    border: 0.1rem solid var(--primary);
+    color: var(--primary);
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;  
+}
+
+.icon-button
+{
+    padding: 0.5rem 1rem;
+    background-color: var(--primary);
+    color: var(--font);
+    border: none;
+    cursor: pointer;
+}
+.icon-button:hover
+{
+    background-color: var(--primary-hover);
+}
+.float-btn
+{
+    font-size:larger;
+    padding: 0.3rem;
+    color:var(--font);
+    background-color: var(--primary);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.float-btn:hover{
+    background-color: var(--primary-hover);
+}
