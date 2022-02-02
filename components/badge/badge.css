@@ -40,15 +40,15 @@
     border-radius: 50%;
 }
 
-.online {
+.status-online {
     background-color: var(--online);
 
 }
 
-.offline {
+.status-offline {
     background-color: var(--offline);
 }
 
-.dnd {
+.status-dnd {
     background-color: var(--dnd);
 }
