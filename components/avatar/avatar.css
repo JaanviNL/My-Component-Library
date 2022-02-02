@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*
+{
+    --lightgrey:#e5e5e5;
+    font-family: 'Montserrat', sans-serif;
+}
+.avatar-container
+{
+    width: 600px;
+    background-color:var(--lightgrey);
+    border: 1px solid #a3a3a3;
+    padding:1rem 1.5rem;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.avatar-small
+{   vertical-align: middle;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.avatar-medium
+{   vertical-align: middle;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.avatar-large
+{   vertical-align: middle;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.square-avatar-small
+{
+    vertical-align: middle;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+.square-avatar-medium
+{
+    vertical-align: middle;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+.square-avatar-large
+{
+    vertical-align: middle;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
