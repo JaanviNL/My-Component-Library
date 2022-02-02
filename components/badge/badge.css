@@ -7,7 +7,7 @@
     --offline: #737373;
     --dnd: #ef4444;
     --lightgrey: #e5e5e5;
-   
+
 }
 
 .badge-container {
@@ -30,8 +30,8 @@
     left: -0.4rem;
     font-size: small;
 }
-.avatar-badge
-{
+
+.avatar-badge {
     position: relative;
     top: -1.2rem;
     left: 3.3rem;
@@ -40,16 +40,15 @@
     border-radius: 50%;
 }
 
-.online
-{
+.online {
     background-color: var(--online);
-    
+
 }
-.offline
-{
+
+.offline {
     background-color: var(--offline);
 }
-.dnd
-{
+
+.dnd {
     background-color: var(--dnd);
 }
