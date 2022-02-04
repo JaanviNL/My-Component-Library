@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+* {
+    --primary: #0284c7;
+    --primary-hover: #0369a1;
+    --neutral: #fafafa;
+    --lightgrey: #e5e5e5;
+    --darkgrey: #404040;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-container {
+    width: 36rem;
+    background-color: var(--lightgrey);
+    border: 1px solid #a3a3a3;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem;
+}
+
+.card-with-text {
+    width: 20rem;
+    height: max-content;
+    background-color: var(--neutral);
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.sub-title {
+    margin-top: -1rem;
+}
+
+.card {
+    width: 20rem;
+    background-color: var(--neutral);
+    margin: auto;
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+}
+
+.badge {
+    position: relative;
+    bottom: -1.8rem;
+    width: 5.8rem;
+    right: -7.5rem;
+    background-color: pink;
+    color: white;
+    padding: 0.1rem 0.3rem;
+    font-weight: bold;
+    font-size: small;
+}
+
+.card-with-badge {
+    width: 20rem;
+    height: 27rem;
+    background-color: var(--neutral);
+    margin: auto;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+img {
+    width: 98%;
+    height: 15rem;
+    border-radius: 0.5rem
+}
+.textoverimage
+{
+  position: relative;
+  top:-5rem;
+  left: 1rem;
+  color: var(--neutral);  
+}
+
+.card-details {
+    margin-top: -0.8rem;
+}
+
+.card-actions {
+    display: flex;
+    margin-top: -0.5rem;
+}
+
+.text-button {
+    padding: 1rem 0rem;
+
+}
+
+.icon-button {
+    padding: 1rem 0rem;
+    margin-left: 2rem;
+}
+
+.btn {
+    margin-right: 0.5rem;
+    background-color: var(--primary);
+    color: var(--neutral);
+    border: none;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.menu-icon {
+    margin-right: 0.4rem;
+    font-size: 1.3rem;
+    color: var(--darkgrey);
+    cursor: pointer;
+    padding: 0.2rem;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: var(--primary-hover);
+}
+
+.menu-icon:hover {
+    background-color: var(--lightgrey);
+}
+.content
+{
+    margin-top: -4rem;
+}
+
+.horizontal-card
+{
+    width: 23rem;
+    background-color: var(--neutral);
+    margin: auto;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.img-with-text
+{
+    display: flex;
+}
+.horizontal-img
+{
+    width: 12rem;
+    height: 10rem;
+}
+.horizontal-text
+{
+    margin-top: -2rem;
+    padding: 1rem;
+}
