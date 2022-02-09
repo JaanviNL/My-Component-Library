@@ -1,0 +1,41 @@
+@import url(/components/alert/alert.css);
+
+*
+{
+    --error-alert:#ef4444;
+    --success-alert:#16a34a;
+    --outline:#cbd5e1;
+}
+
+.alert-container
+{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    border-radius: 0.1rem;
+    padding: 2rem;
+   
+    }
+label{
+    font-weight: bold;
+}
+.input-text
+{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    width: 60%;
+   border: 0.1rem solid var(--outline);
+
+}
+.outline-error
+{
+    border-color:  var(--error-alert);
+    color:var(--error-alert);
+    font-weight: bold;
+}
+.outline-success
+{
+    border-color:  var(--success-alert);
+    color:var(--success-alert);
+    font-weight: bold; 
+}
