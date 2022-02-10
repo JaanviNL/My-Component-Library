@@ -1,33 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
-*
-{
-    font-family: 'Montserrat', sans-serif;  
-    --background-header:#C98484;
+* {
+    font-family: 'Montserrat', sans-serif;
+    --background-header: #00BFA6;
     margin: 0;
     padding: 0;
 }
-.header-container
-{
+
+.header-container {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.5rem;
+    border: 0.1rem outset ;
+    box-shadow: 4px 5px #d4d4d4;
+    
 }
-h1{
+
+h1 {
     color: var(--background-header);
+    font-weight: bolder;
 }
-.header-text
-{
+
+.header-text {
     margin-top: 1rem;
 }
-.link
-{
+
+.link {
     text-decoration: none;
-    padding: 0.2rem 0.5rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 0.4rem;
+    color: var(--background-header);
+    font-size: large;
+
 }
-.link:hover
-{
+
+.link:hover {
     background-color: var(--background-header);
     color: beige;
+}
+
+.image-text-container {
+    position: relative;
+    width: 32%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+.text {
+    position: absolute;
+    bottom: -2rem;
+
+    font-size: larger;
+}
+
+.text-link {
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+}
+
+.primary-link {
+    color: beige;
+    background-color: var(--background-header);
+    border: 0.1rem solid var(--background-header);
+    border-radius: 2rem;
+}
+
+.secondary-link {
+    border-radius: 2rem;
+    border: 0.1rem solid var(--background-header);
+    margin-left: 1rem;
 }
