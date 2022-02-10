@@ -46,6 +46,7 @@ h1 {
 }
 
 img {
+    margin-top: 4rem;
     width: 100%;
     height: auto;
 
@@ -53,7 +54,7 @@ img {
 
 .text {
     position: absolute;
-    bottom: -2rem;
+    bottom: -7rem;
 
     font-size: larger;
 }
