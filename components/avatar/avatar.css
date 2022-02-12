@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@import url(/style.css);
+@import url(/main.css);
 *
 {
     --lightgrey:#e5e5e5;
@@ -11,11 +12,10 @@
     width: 36rem;
     background-color:var(--lightgrey);
     border: 1px solid #a3a3a3;
-    padding:1rem 1.5rem;
-    margin: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 2rem;
+    padding-top: -3rem;
+    margin: 1rem;
+    
    
 }
 .avatar-small

@@ -5,12 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d1df61a108.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="alert.css">
-    <title>Alert</title>
+    <title> Explore UI | Alert</title>
 </head>
 <body>
+    <header>
+        <div class="header-container">
+            <h1>Explore UI</h1>
+            <div class="header-text">
+                <a href="index.html" class="link">Home</a>
+                <a href="main.html" class="link">Installation</a>
+                <input class="search-bar" type="text" placeholder="Search...">
+            </div>
+        </div>
+</header>
+
+<div class="contents">
+
+    <div class="sidebar">
+        <h4>Getting Started</h4>
+        <a href="/main.html" class="link">Introduction</a>
+
+        <h4>Components</h4>
+        <a href="/components/alert/alert.html" class="link">Alert</a>
+        <a href="/components/avatar/avatar.html" class="link">Avatar</a>
+        <a href="/components/badge/badge.html" class="link">Badge</a>
+        <a href="/components/button/button.html" class="link">Button</a>
+        <a href="/components/card/card.html" class="link">Card</a>
+        <a href="/components/Images/image.html" class="link">Image</a>
+        <a href="/components/Input/input.html" class="link">Input</a>
+    </div>
+        
     <div class="component-container">
         <h2>Alert</h2>
+        <p class="content-text">
+            An alert displays a short and important message which attracts the user's attention without interrupting the user's task.
+        </p>
+<hr class="break-line">
+
+            <h3>Simple Alerts</h3>
+            <p class="content-text">Simple Alerts can be created using alert class, followed by the variant name.</p>
         <div class="alert-container">
             <div class="alert error-alert">
                 <p>Error Alert</p>
@@ -29,7 +64,13 @@
                 <i class="fas fa-times icon"></i>
             </div>
 </div>
+
+<img src="/assets/code/alert.png" class="code-img">
+<hr class="break-line">
+
 <!-- Outline Alert -->
+<h3>Outline Alert with icon</h3>
+<p class="content-text">Outline alerts are created by using alert class, followed by outline-variant.</p>
 <div class="alert-container">
     <div class="outline-alert outline-error">
     <i class="fas fa-times-circle outline-icon"></i>
@@ -49,10 +90,15 @@
  <div class="outline-alert outline-warning">
      <i class="fas fa-exclamation-triangle outline-icon"></i>
       <p>Warning Alert</p>
- 
-            
-            
-        </div>
+  </div>
+    </div>
+    <img src="/assets/code/outline-alert.png" class="code-img">
+    <div class="arrow-nav">
+    <a  href="/main.html" class="arrow-btn"><i class="arrow left"></i>Introduction</a>
+    <a href="/components/avatar/avatar.html" class="arrow-btn">Avatar<i class="arrow right"></i></a>
+  </div>
+</div>
+
     </div>
 </body>
 </html>

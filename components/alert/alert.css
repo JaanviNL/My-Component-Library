@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url(/style.css);
+@import url(/main.css);
 *
 {
     --error-alert:#ef4444;
@@ -12,26 +14,30 @@
 
 .alert-container
 {
-    width: 600px;
+    width: 35rem;
     background-color:var(--lightgrey);
     border: 1px solid #a3a3a3;
     padding:1rem 1.5rem;
-    margin: 1.5rem;
+    margin: 2rem 1.5rem;
 }
 .alert
 {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 25rem;
     padding-left: 1rem;
     font-weight: bold;
     color: white;
     margin: 1rem;
     border-radius: 0.4rem;
 }
+.alert >p
+{
+    padding-top: 0.6rem;
+}
 .icon
 {
-    padding: 1rem 1rem;
+    padding: 0.8rem 1rem;
     cursor: pointer;
 
 }
@@ -56,18 +62,20 @@
 {
     display: flex;
     justify-content: flex-start;
-    width: 75%;
+    width: 25rem;
     padding-left: 1rem;
     font-weight: bolder;
     margin: 1rem;
     border: 2px solid;
     border-radius: 0.4rem;
 }
-
+.outline-alert >p{
+    padding-left: 0.4rem;
+    padding-top: 0.3rem;
+}
 .outline-icon
 {
-    padding-top: 1rem;
-    padding-right: 0.5rem;
+    padding: 0.6rem 0.2rem;
     font-size: larger;
 }
 .outline-error
