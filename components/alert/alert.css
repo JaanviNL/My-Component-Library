@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url(/style.css);
+
 @import url(/main.css);
 *
 {
@@ -9,6 +9,8 @@
     --info-alert:#06b6d4;
     --lightgrey:#e5e5e5;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
