@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@import url(/main.css);
+@import url(/style.css);
 *
 {--primary:#0284c7;
     --primary-hover:#0369a1;
@@ -65,7 +66,7 @@
 }
 /* outline buttons */
 .btn-primary-outline
-{
+{background-color: inherit;
     color: var(--primary);
     border:0.1rem solid var(--primary);
 }
@@ -77,6 +78,7 @@ color: var(--font);
 {
     border:0.1rem solid var(--error);
     color:var(--error);
+    background-color: inherit; 
 }
 .btn-error-outline:hover
 {
@@ -87,6 +89,7 @@ color: var(--font);
 {
     border:0.1rem solid var(--sucess);
     color: var(--sucess);
+    background-color: inherit; 
 }
 .btn-success-outline:hover
 {
@@ -109,7 +112,8 @@ color: var(--font);
     color: var(--primary);
     margin-top: 2rem;
     padding: 0.5rem 1rem;
-    text-decoration: none;  
+    text-decoration: none; 
+    background-color: inherit; 
 }
 
 .icon-button
