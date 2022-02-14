@@ -1,12 +1,21 @@
 @import url(/components/alert/alert.css);
-
+@import url(/main.css);
 *
 {
     --error-alert:#ef4444;
     --success-alert:#16a34a;
     --outline:#cbd5e1;
-}
 
+    margin: 0;
+    padding: 0;
+}
+.sidebar-input
+{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    padding: 2rem;
+}
 .alert-container
 {
     display: flex;

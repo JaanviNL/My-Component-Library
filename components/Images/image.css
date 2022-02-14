@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
+@import url(/main.css);
 * {
     --border: #a3a3a3;
     --lightgrey: #e5e5e5;
     font-family: 'Montserrat', sans-serif;
 }
 
+.sidebar-image
+{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    padding: 2rem;
 
+}
 
 .image-conatiner {
     
-    width: 30%;
+    width: 20rem;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: auto;
+   
+    padding: 2rem;
 
 }
 

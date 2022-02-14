@@ -1,20 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url(/style.css);
+
 @import url(/main.css);
 *
 {
+    margin: 0;
+    padding: 0;
     --lightgrey:#e5e5e5;
     font-family: 'Montserrat', sans-serif;
 }
+.sidebar-avatar {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding: 2rem;
+    
+}
 .avatar-container
 {
-    width: 36rem;
+    width: 35rem;
     background-color:var(--lightgrey);
     border: 1px solid #a3a3a3;
-    padding-left: 2rem;
-    padding-top: -3rem;
-    margin: 1rem;
+    padding:1rem 1.5rem;
+    margin: 2rem 1.5rem;
     
    
 }

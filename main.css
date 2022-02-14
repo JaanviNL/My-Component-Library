@@ -16,8 +16,9 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    width: 15rem;
     padding: 2rem;
+    
 }
 
 h4 {
@@ -26,10 +27,11 @@ h4 {
 
 .contents {
     display: flex;
+    justify-content: flex-start;
 }
 
 .component-container {
-    padding: 2rem 4rem 4rem 1.5rem;
+    padding: 2rem 4rem 4rem 1rem;
     line-height: 1.7rem;
     font-size: large;
 
@@ -46,7 +48,7 @@ h4 {
 
 .code-img {
    width: 36rem;
-    margin: 1.5rem 1.5rem;
+    margin: 1rem 1.5rem;
    width: 38rem;
 }
 

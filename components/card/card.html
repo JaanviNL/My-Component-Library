@@ -7,149 +7,223 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="card.css">
     <script src="https://kit.fontawesome.com/d1df61a108.js" crossorigin="anonymous"></script>
-    <title>Card</title>
+    <title>Explore UI | Card</title>
 </head>
 
 <body>
-    <div class="component-container">
-        <h2>Card</h2>
-        <!-- Card with Text -->
-        <div class="card-container">
-            <div class="card-with-text">
-                <h2>A Tittle</h2>
-                <p class="sub-title">Subtitle Comes here...</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi iusto reprehenderit provident
-                    expedita odit nisi molestiae officiis blanditiis dignissimos totam est tenetur.</p>
+
+    <header>
+        <div class="header-container">
+            <h1>Explore UI</h1>
+            <div class="header-text">
+                <a href="index.html" class="link">Home</a>
+                <a href="main.html" class="link">Installation</a>
+                <input class="search-bar" type="text" placeholder="Search...">
             </div>
         </div>
+    </header>
 
-        <!-- Vertical Card -->
-        <div class="card-container">
-            <div class="card">
-                <div>
-                    <img src="/assets/softtoy.jpg">
-                </div>
-                <div class="card-details">
-                    <h3>A Tittle</h3>
+    <div class="contents">
+
+        <div class="sidebar-card">
+            <h4>Getting Started</h4>
+            <a href="/main.html" class="link">Introduction</a>
+
+            <h4>Components</h4>
+            <a href="/components/alert/alert.html" class="link">Alert</a>
+            <a href="/components/avatar/avatar.html" class="link">Avatar</a>
+            <a href="/components/badge/badge.html" class="link">Badge</a>
+            <a href="/components/button/button.html" class="link">Button</a>
+            <a href="/components/card/card.html" class="link">Card</a>
+            <a href="/components/Images/image.html" class="link">Image</a>
+            <a href="/components/Input/input.html" class="link">Input</a>
+        </div>
+        <div class="component-container">
+            <h2>Card</h2>
+            <p class="content-text"> Cards are surfaces that display content and actions on a single topic.<br>The card
+                component can contain a variety of content, including a heading, image, content and a footer.</p>
+
+            <hr class="break-line">
+            <!-- Card with Text -->
+            <h3>Card with plain text</h3>
+            <div class="card-container">
+                <div class="card-with-text">
+                    <h2>A Tittle</h2>
                     <p class="sub-title">Subtitle Comes here...</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi iusto reprehenderit
-                        provident expedita..</p>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi iusto
+                        reprehenderit provident
+                        expedita odit nisi molestiae officiis blanditiis dignissimos totam est tenetur.</p>
                 </div>
-                <div class="card-actions">
-                    <div class="text-button">
-                        <button class="btn">Add to cart</button>
-                        <button class="btn">Buy Now</button>
-                    </div>
-
-                    <div class="icon-button">
-
-                        <i class="far fa-heart menu-icon" title="Add to wishlist"></i>
-                        <i class="fas fa-share-alt menu-icon"  title="Share"></i>
-                        <i class='fas fa-shopping-cart menu-icon' title="Go to Cart"></i>
-
-
-                    </div>
-
-                </div>
-
             </div>
-        </div>
+            <iframe src="https://carbon.now.sh/embed/PEGAotQGuDKlutqNoV5q"
+                style="width: 555px; height: 239px; border:0; transform: scale(1); overflow:hidden;" class="code-img"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
 
-        <!-- card with badge -->
+            <hr class="break-line">
 
-        <div class="card-container">
-            <div class="badge">Trending</div>
-            <div class="card-with-badge">
-                <div>
-                    <img src="/assets/softtoy.jpg">
-                </div>
-                <div class="card-details">
-                    <h3>A Tittle</h3>
-                    <p class="sub-title">Subtitle Comes here...</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi iusto reprehenderit
-                        provident expedita..</p>
-                </div>
-                <div class="card-actions">
-                    <div class="text-button">
-                        <button class="btn">Add to cart</button>
-                        <button class="btn">Buy Now</button>
+            <!-- Vertical Card -->
+            <h3>Vertical Card</h3>
+            <div class="card-container">
+                <div class="card">
+                    <div>
+                        <img class="card-img" src="/assets/softtoy.jpg">
                     </div>
-
-                    <div class="icon-button">
-
-                        <i class="far fa-heart menu-icon" title="Add to wishlist"></i>
-                        <i class="fas fa-share-alt menu-icon"  title="Share"></i>
-                        <i class='fas fa-shopping-cart menu-icon' title="Go to Cart"></i>
-
-
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    
-          <!-- Card with text overlay -->
-          <div class="card-container">
-              <div class="card">
-                  <div >
-                      <img src="/assets/images.jpg" alt="Text Over Card">
-                      <div class="textoverimage">
+                    <div class="card-details">
                         <h3>A Tittle</h3>
                         <p class="sub-title">Subtitle Comes here...</p>
-                      </div>
-                      <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt quos fugiat amet inventore labore et doloremque. </p>
-                      <div class="card-actions">
+                        <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi iusto
+                            reprehenderit
+                            provident expedita..</p>
+                    </div>
+                    <div class="card-actions">
                         <div class="text-button">
-                            <button class="btn">Add to cart</button>
-                            <button class="btn">Buy Now</button>
+                            <button class="btn-c">Add to cart</button>
+                            <button class="btn-c">Buy Now</button>
                         </div>
-    
+
                         <div class="icon-button">
-    
+
                             <i class="far fa-heart menu-icon" title="Add to wishlist"></i>
-                            <i class="fas fa-share-alt menu-icon"  title="Share"></i>
+                            <i class="fas fa-share-alt menu-icon" title="Share"></i>
                             <i class='fas fa-shopping-cart menu-icon' title="Go to Cart"></i>
-    
-    
+
+
                         </div>
-    
-                    </div>
-                  </div>
-              </div>
-          </div>
-
-          <!-- Horizontal Card -->
-          <div class="card-container">
-              <div class="horizontal-card">
-                  <div class="img-with-text">
-                      <img src="/assets/nutella.jpg" class="horizontal-img">
-                      <div class=" horizontal-text ">
-                        <h2>A Tittle</h2>
-                        <p class="sub-title">Subtitle Comes here...</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi iusto reprehenderi.
-                             </p>
-                    </div>
-                  </div>
-                  <div class="card-actions">
-                    <div class="text-button">
-                        <button class="btn">Add to cart</button>
-                        <button class="btn">Buy Now</button>
-                    </div>
-
-                    <div class="icon-button">
-
-                        <i class="far fa-heart menu-icon" title="Add to wishlist"></i>
-                        <i class="fas fa-share-alt menu-icon"  title="Share"></i>
-                        <i class='fas fa-shopping-cart menu-icon' title="Go to Cart"></i>
-
 
                     </div>
 
                 </div>
-              </div>
-          </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/foXN5UGts1PcO3BFVLVh"
+                style="width: 785px; height: 486px; border:0; transform: scale(1); overflow:hidden;" class="code-img"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr class="break-line">
+            <!-- card with badge -->
+            <h3>Card with badge</h3>
+            <div class="card-container">
+                <div>
+                    <div class="badge">Trending</div>
+                    <div class="card-with-badge">
+                        <div>
+                            <img class="card-img" src="/assets/softtoy.jpg">
+                        </div>
+                        <div class="card-details">
+                            <h3>A Tittle</h3>
+                            <p class="sub-title">Subtitle Comes here...</p>
+                            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi
+                                iusto
+                                reprehenderit
+                                provident expedita..</p>
+                        </div>
+                        <div class="card-actions">
+                            <div class="text-button">
+                                <button class="btn-c">Add to cart</button>
+                                <button class="btn-c">Buy Now</button>
+                            </div>
+
+                            <div class="icon-button">
+
+                                <i class="far fa-heart menu-icon" title="Add to wishlist"></i>
+                                <i class="fas fa-share-alt menu-icon" title="Share"></i>
+                                <i class='fas fa-shopping-cart menu-icon' title="Go to Cart"></i>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/Q4S0jLgdsm1Y3KLD9BTe"
+                style="width: 680px; height: 653px; border:0; transform: scale(1); overflow:hidden;" class="code-img"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr class="break-line">
+            <h3>Card with text overlay</h3>
+            <!-- Card with text overlay -->
+            <div class="card-container">
+                <div class="card">
+                    <div>
+                        <img class="card-img" src="/assets/images.jpg" alt="Text Over Card">
+                        <div class="textoverimage">
+                            <h3>A Tittle</h3>
+                            <p class="sub-title">Subtitle Comes here...</p>
+                        </div>
+                        <p class="card-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                            incidunt quos fugiat amet inventore labore et doloremque. </p>
+                        <div class="card-actions">
+                            <div class="text-button">
+                                <button class="btn-c">Add to cart</button>
+                                <button class="btn-c">Buy Now</button>
+                            </div>
+
+                            <div class="icon-button">
+
+                                <i class="far fa-heart menu-icon" title="Add to wishlist"></i>
+                                <i class="fas fa-share-alt menu-icon" title="Share"></i>
+                                <i class='fas fa-shopping-cart menu-icon' title="Go to Cart"></i>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/BQpBEdvN27L4aGyO3Vrw"
+                style="width: 680px; height: 612px; border:0; transform: scale(1); overflow:hidden;" class="code-img"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr class="break-line">
+            <h3>Horizontal Card</h3>
+            <!-- Horizontal Card -->
+            <div class="card-container">
+                <div class="horizontal-card">
+                    <div class="img-with-text">
+                        <img src="/assets/nutella.jpg" class="horizontal-img">
+                        <div class=" horizontal-text ">
+                            <h3>A Tittle</h3>
+                            <p class="sub-title">Subtitle Comes here...</p>
+                            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, modi
+                                iusto reprehenderi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <div class="text-button">
+                            <button class="btn-c">Add to cart</button>
+                            <button class="btn-c">Buy Now</button>
+                        </div>
+
+                        <div class="icon-button">
+                            <i class="far fa-heart menu-icon" title="Add to wishlist"></i>
+                            <i class="fas fa-share-alt menu-icon" title="Share"></i>
+                            <i class='fas fa-shopping-cart menu-icon' title="Go to Cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe
+  src="https://carbon.now.sh/embed/QWgNKYs7rMqfX3aErNFN"
+  style="width: 743px; height: 524px; border:0; transform: scale(1); overflow:hidden;" class="code-img"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <div class="arrow-nav">
+                <a href="/components/button/button.html" class="arrow-btn"><i class="arrow left"></i>Button</a>
+                <a href="/components/Images/image.html" class="arrow-btn">Image<i class="arrow right"></i></a>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>

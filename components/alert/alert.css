@@ -13,7 +13,13 @@
     padding: 0;
 }
 
-
+.sidebar-alert{
+    display: flex;
+    flex-direction: column;
+    width: 12.3rem;
+    padding: 2rem;
+    
+}
 .alert-container
 {
     width: 35rem;

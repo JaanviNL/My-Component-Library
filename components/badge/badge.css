@@ -11,6 +11,13 @@
     --lightgrey: #e5e5e5;
 
 }
+.sidebar-badge {
+    display: flex;
+    flex-direction: column;
+    width: 19.5rem;
+    padding: 2rem;
+    
+}
 .badge{
 background-color:inherit;
 }
