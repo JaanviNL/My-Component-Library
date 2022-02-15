@@ -1,87 +1,76 @@
 @import url(/main.css);
 @import url(/style.css);
 
-
-
-.sidebar-nav
-{
+.sidebar-nav {
     display: flex;
     flex-direction: column;
     width: 15rem;
     padding: 2rem;
 }
-h2{
+
+h2 {
     margin-top: 1rem;
 }
 
-.header
-{ 
+.header {
     display: flex;
     background-color: #4f46e5;
     justify-content: space-between;
     position: relative;
-    
-    
 }
-.icon
-{
+
+.icon {
     font-size: 1.5rem;
     padding: 1rem;
-    margin:0.2rem 1rem 0rem 1rem;
+    margin: 0.2rem 1rem 0rem 1rem;
     color: white;
     cursor: pointer;
     border-radius: 50%;
-   
 }
-.icon:hover
-{
-    background-color:#6366f1;
+
+.icon:hover {
+    background-color: #6366f1;
 }
-.header-a
-{
+
+.header-a {
     display: flex;
     padding-left: 1rem;
     color: white;
 }
-.header-b
-{
+
+.header-b {
     color: white;
     display: flex;
     justify-content: stretch;
-    
 }
-.content-nav
-{
+
+.content-nav {
     padding-left: 1rem;
 }
 
 /* standard container */
-.s-container
-{ 
+.s-container {
     width: 700px;
     height: 300px;
     border: 1px solid black;
     overflow-y: scroll;
     margin: 1.5rem 0.5rem;
-    
-    
 }
+
 /* fixed container */
-.f-container
-{
+.f-container {
     width: 700px;
     height: 300px;
     border: 1px solid black;
     overflow-y: scroll;
     overflow-x: hidden;
-   position: relative;
-   margin: 1.5rem 0.5rem;
+    position: relative;
+    margin: 1.5rem 0.5rem;
 }
 
-.f-header
-{
-   
+.f-header {
+
     position: sticky;
-    top:0;
+    top: 0;
     width: inherit;
 }
