@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url(/main.css);
+@import url(/style.css);
+@import url(/components/alert/alert.css);
+
+.sidebar-toast {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    padding: 2rem;
+}
+
+.toast-container
+{
+width: 35rem;
+background-color:var(--lightgrey) ;
+border: 1px solid #a3a3a3;
+padding:1rem 1.5rem;
+margin: 2rem 1.5rem;
+}
+.toastbar {
+    width: 30rem;
+    margin: auto;
+    height: 2rem;
+    background-color: #334155;
+  
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.1rem;
+}
+
+.btn-t {
+    border: none;
+    background-color: #334155;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #8b5cf6;
+    border-radius: 5px;
+    padding: 0rem 1rem;
+    margin-top: -0.2rem;
+}
+
+.cross {
+    margin-top: -0.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.btn-t:hover,
+.cross:hover {
+    background-color: #475569;
+    ;
+}
