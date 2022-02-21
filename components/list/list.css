@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url(/main.css);
+@import url(/components/alert/alert.css);
+
+.unordered-list
+{
+    list-style: none;
+    border-top:0.1rem solid black;
+    border-left: 0.1rem solid black;
+    border-right: 0.1rem solid black;
+    width: 20rem;
+    margin: auto;
+}
+.list-item
+{
+    padding: 0.5rem 1rem;
+    border-bottom: 0.1rem solid black;;
+}
+
+.flex-column
+{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.width
+{
+    width: 13rem;
+    font-size: medium;
+}
+.list-item:hover
+{
+    background-color: white;
+}
