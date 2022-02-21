@@ -27,7 +27,8 @@ Explore UI Is a Light-weight and easy to use UI Component Library for developing
  <h3> How To use This project:-</h3>
  In order to use Explore UI components in your project , copy and paste the below link in your head section, above all other style sheets.
   <br>
-  ![Screenshot (33)](https://user-images.githubusercontent.com/89147799/154953246-8575f737-35bd-4aa2-8aec-46b74f8da35a.png)
+![Screenshot (33)](https://user-images.githubusercontent.com/89147799/154956068-59e82d5e-c85c-4fde-a481-c181e1648318.png)
+
 
 
  
