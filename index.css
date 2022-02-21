@@ -57,7 +57,7 @@ h1 {
 .text {
     position: absolute;
     bottom: -7rem;
-
+margin-bottom: 4rem;
     font-size: larger;
 }
 
