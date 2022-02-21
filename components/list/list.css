@@ -2,20 +2,25 @@
 
 @import url(/main.css);
 @import url(/components/alert/alert.css);
+*
+{
+    --black:#0f172a;
+    --white:#f8fafc;
+}
 
 .unordered-list
 {
     list-style: none;
-    border-top:0.1rem solid black;
-    border-left: 0.1rem solid black;
-    border-right: 0.1rem solid black;
+    border-top:0.1rem solid var(--black);
+    border-left: 0.1rem solid var(--black);
+    border-right: 0.1rem solid var(--black);
     width: 20rem;
     margin: auto;
 }
 .list-item
 {
     padding: 0.5rem 1rem;
-    border-bottom: 0.1rem solid black;;
+    border-bottom: 0.1rem solid var(--black);
 }
 
 .flex-column
@@ -32,5 +37,5 @@
 }
 .list-item:hover
 {
-    background-color: white;
+    background-color: var(--white);
 }
